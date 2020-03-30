@@ -1,0 +1,81 @@
+html {
+    font-size: 10px;
+    background-image: url(./images/palm3.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+  }
+
+  h1 {
+    font-size: 6rem;
+    font-family: 'Orbitron', sans-serif;
+    display: inline;
+  }
+
+  span {
+    font-family: 'Audiowide', cursive;
+  }
+  
+  .reggae {
+    display: inline;
+    font-family: 'Rock Salt', cursive;
+    margin-left: 2rem;
+  }
+  
+  .screen {
+    /* background-color: lawngreen; */
+    margin: 70px 200px 0px 200px;
+    height: 150px;
+    width: 600px;
+    padding: 3rem 1rem 3rem 3rem;
+    border-radius: 3rem;
+  }
+  .keys {
+    /* background-color: slateblue; */
+    display: flex;
+    flex: 1;
+    min-height: 40vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1.5rem .5rem;
+    transition: all .07s ease;
+    width: 13rem;
+    height: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+    margin-top: .5rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
